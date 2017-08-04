@@ -165,7 +165,7 @@ pre {
 .post {
   width: 70%;
   float: right;
-  height: 600px; }
+  min-height: 600px; }
   @media screen and (max-width: 600px) {
     .post {
       float: none;
@@ -228,7 +228,7 @@ div, h1, a, li {
   letter-spacing: -1px;
   margin-bottom: 0; }
   .site-title img {
-    color: #fff; }
+    width: 300px; }
   .site-title, .site-title:visited {
     color: #424242; }
   @media screen and (max-width: 600px) {
@@ -255,10 +255,10 @@ div, h1, a, li {
       position: absolute;
       top: 9px;
       right: 40px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
+      .site-nav:hover {
+        background-color: #fdfdfd; }
       .site-nav .menu-icon {
         display: block;
         float: right;
@@ -268,7 +268,7 @@ div, h1, a, li {
         padding-top: 10px;
         text-align: center; }
         .site-nav .menu-icon > svg path {
-          fill: #424242; }
+          fill: #222; }
       .site-nav .trigger {
         clear: both;
         display: none; }
